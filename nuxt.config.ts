@@ -2,7 +2,6 @@
 import { defineNuxtConfig } from "nuxt/config"
 
 export default defineNuxtConfig({
-  mode: 'universal',
   head: {
     title: process.env.npm_package_name || '',
     meta: [
